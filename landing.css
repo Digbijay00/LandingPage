@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: sans-serif;
+    overflow: scroll;
+}
+header{
+    background-color: rgb(3, 3, 3);
+    height: 72px;
+    font-size: medium;
+    padding-right: 35px;
+    
+}
+.headerpart{
+    width: 100vw;
+    position: fixed;
+     z-index: 1000;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar{
+    height: 70px;
+    width:115px;
+    
+}
+.ul2{
+    padding-top: 23px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 78px;
+}
+@keyframes scroll {
+    from {
+      transform: translateX(-10%);
+    }
+    to {
+      transform: translateX(10%);
+    }
+  }
+.scrollingtext{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
+}
+li::marker{
+    content:" ";
+}
+a{
+    color:azure;
+    text-decoration: none;
+}
+.home{
+    background-image: url("./image/wallpaperflare.com_wallpaper\ \(2\).jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 35px;
+    color: aqua;
+    height: 68vh;
+    font-size: 35px;
+    margin:0px auto;
+    padding-top: 150px;
+}
+.home h1{
+    color: darkkhaki;
+}
+h3{
+    color:grey
+}
+p{
+    font-size: medium;
+    
+}
+span{
+    color: goldenrod;
+}
+a:hover{
+    color: goldenrod;
+}
+.shoparea{
+    height:75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-left: 250px;
+    background-color: rgb(183, 164, 109);
+    padding-right: 50px;
+}
+.prdct{
+    height: 370px;
+    width: 284px;
+    border: 2px solid ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 5px 3px rgb(30, 29, 29);
+
+}
+.prdct img{
+    height: 330px;
+    width: auto;
+}
+button{
+    color: aliceblue;
+    background-color: blue;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+}
+.sideview{
+    height: 85vh;
+    width: auto;
+    background-color: black;
+}
+.sideviewimg{
+    height:85vh;
+    width: 600px;
+    opacity: 0.9;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    height:85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(59, 130, 84);
+    justify-content: center;
+}
+.about h1{
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.information{
+    height: 75vh;
+    background-color: rgb(72, 72, 194);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 80px;
+    gap: 20px;
+    color: black;
+}
+#information{
+    background-image: url("./image/young-executive-working-with-headset-laptop.jpg");
+    background-size: cover;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    padding-top: 40px;
+}
+.copyright h3{
+    color: azure;
+}
+footer{
+    background-color: rgb(79, 8, 8);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:12vh;
+}
+.logo{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
